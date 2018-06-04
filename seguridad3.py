@@ -122,7 +122,9 @@ def principal():
     print("2.- Desencriptar")
     print("3.- Clave")
     print("4.- Salir")
+    print("4.- Salir")
     w = int(input("Seleccione una opcion: "))
+
     opciones = {1: vigenere ,2: Dvigenere ,3: clave, 4:exit}
 
     opcion = opciones[w]()
